@@ -69,13 +69,12 @@ All images should be placed in the project root folder.
 ## 📁 Project Structure
 Valorant-Quiz/
 │
-├── index.html
+├── welcomepage.html
 ├── first.html
 ├── second.html
 ├── third.html
 ├── fourth.html
 ├── wrong.html
-├── final.html
 │
 ├── agents.png
 ├── raze.png
