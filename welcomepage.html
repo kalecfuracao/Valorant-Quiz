@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Welcome to the Valorant Quiz!</title>
+    <meta charset="UTF-8">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background: radial-gradient(circle at top, #0f1923, #000);
+            color: #FF4655;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        #logo img {
+            width: 280px;
+            margin-top: 60px;
+            filter: drop-shadow(0px 0px 10px #ff4655);
+            transition: 0.3s;
+        }
+
+        #logo img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-top: 25px;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-shadow: 0 0 12px rgba(255, 70, 85, 0.5);
+        }
+
+        p {
+            font-size: 20px;
+            color: #d1d5db;
+            margin: 12px 0;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button {
+            background: transparent;
+            padding: 14px 34px;
+            border: 2px solid #FF4655;
+            border-radius: 30px;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #FF4655;
+            color: white;
+            transform: scale(1.08);
+            box-shadow: 0 0 12px rgba(255, 70, 85, 0.5);
+        }
+
+        a {
+            text-decoration: none;
+            color: #FF4655;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        button:hover a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="logo">
+        <img src="Valorant-Logo-PNG.png" alt="Valorant Logo">
+    </div>
+
+    <h1>Welcome, Agent.</h1>
+
+    <p>Prepare yourself for a series of challenges designed to test your knowledge of Valorant.</p>
+    <p>Your mission begins as soon as you enter the training grounds.</p>
+
+    <button><a href="first.html">Start Quiz</a></button>
+
+</body>
+</html>

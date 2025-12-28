@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>First Question!</title>
+    <meta charset="UTF-8">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        body {
+            background: radial-gradient(circle at top, #0f1923, #000);
+            color: #FF4655;
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-top: 40px;
+            font-size: 40px;
+            letter-spacing: 2px;
+            text-shadow: 0 0 12px rgba(255, 70, 85, 0.5);
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+            color: #d1d5db;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 330px;
+            height: auto;
+            margin-top: 20px;
+            filter: drop-shadow(0px 0px 10px #ff4655);
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .btn {
+            display: inline-block;
+            background: transparent;
+            padding: 12px 30px;
+            border: 2px solid #FF4655;
+            border-radius: 25px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 20px;
+            color: #FF4655;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #FF4655;
+            color: white;
+            transform: scale(1.08);
+            box-shadow: 0 0 12px rgba(255, 70, 85, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>First Question</h1> 
+
+    <p>What is the name of the organization responsible for creating the agents in Valorant?</p>
+
+    <img src="agents.png" alt="Valorant Agents">
+
+    <div><a class="btn" href="second.html">Kingdom Corporation</a></div>
+    <p style="color:white; font-size:22px; margin:8px 0;">or</p>
+    <div><a class="btn" href="wrong.html">Valorant Protocol</a></div>
+
+</body>
+</html>
